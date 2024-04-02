@@ -5,9 +5,9 @@ const sidebarLinks = [
         imgUrl: '/icons/something.svg'
     },
     {
-        label: 'Home',
+        label: 'Upcoming',
         route: '/',
-        imgUrl: '/icons/something.svg'
+        imgUrl: '/icons/upcoming.svg'
     },
     {
         label: 'Home',
