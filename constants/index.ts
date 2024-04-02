@@ -2,22 +2,22 @@ const sidebarLinks = [
     {
         label: 'Home',
         route: '/',
-        imgUrl: '/icons/something.svg'
+        imgUrl: '/icons/Home.svg'
     },
     {
         label: 'Upcoming',
-        route: '/',
+        route: '/upcoming',
         imgUrl: '/icons/upcoming.svg'
     },
     {
-        label: 'Home',
-        route: '/',
-        imgUrl: '/icons/something.svg'
+        label: 'Previous',
+        route: '/previous',
+        imgUrl: '/icons/previous.svg'
     },
     {
-        label: 'Home',
-        route: '/',
-        imgUrl: '/icons/something.svg'
+        label: 'Recordings',
+        route: '/recordings',
+        imgUrl: '/icons/recordings.svg'
     },
     {
         label: 'Home',
