@@ -1,8 +1,11 @@
+'use client'
+
+import React from 'react'
 import { sidebarLinks } from '@/constants'
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'
-import React from 'react'
+
 
 const Sidebar = () => {
   const pathname = usePathname();
@@ -21,7 +24,7 @@ const Sidebar = () => {
                 'bg-blue-1': isActive,
               })}
             >
-              
+              {link.label}
             </Link>
           )
         })}
