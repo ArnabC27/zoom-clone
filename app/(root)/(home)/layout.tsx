@@ -2,7 +2,9 @@ import React, { ReactNode } from 'react'
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <main>
+    <main className='relative'>
+        Navbar
+        
         <div className='flex'>
             Sidebar
 
